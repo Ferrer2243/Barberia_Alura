@@ -1,0 +1,5 @@
+{path: 'seguridad´,
+loadChildren: () => import( './seguridad/seguridad.module')
+.then(m => m.SeguridadModule),
+}
+
